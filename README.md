@@ -29,7 +29,9 @@ Run jenkins as a root user with this command
 
 docker run -u 0 -d -p 8080:8080 -p 50000:50000 -v /data/jenkins:/var/jenkins_home jenkins/jenkins:lts
 
+Kubernetes yaml format 
 
+https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment/
 
 
 
