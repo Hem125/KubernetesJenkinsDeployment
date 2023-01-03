@@ -25,6 +25,10 @@ Go to .kube and  copy config file  upload as a secret file
 
 ![image](https://user-images.githubusercontent.com/103022040/210328596-3fe9d666-5fb0-46d7-9d39-b7c8c04c4f62.png)
 
+Run jenkins as a root user with this command 
+
+docker run -u 0 -d -p 8080:8080 -p 50000:50000 -v /data/jenkins:/var/jenkins_home jenkins/jenkins:lts
+
 
 
 
