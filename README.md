@@ -33,6 +33,16 @@ Kubernetes yaml format
 
 https://www.mirantis.com/blog/introduction-to-yaml-creating-a-kubernetes-deployment/
 
+_____________________________________________________________________________
+
+Kubernetes learnig
+
+Rollout core dns
+
+kubectl rollout restart -n kube-system deployment/coredns
+
+
+
 
 
 
