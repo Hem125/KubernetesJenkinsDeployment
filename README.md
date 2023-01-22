@@ -41,6 +41,21 @@ Rollout core dns
 
 kubectl rollout restart -n kube-system deployment/coredns
 
+________________________________________________________________________________
+
+
+        stage('EKS pod deploy') {
+            steps {
+                script {
+                    sh '''                 
+                        kubectl apply -f /var/lib/jenkins/workspace/vrsn-backend/vrsn-middleware/vrsn-subscriber-manager/backend-deployment.yaml
+                    '''   
+                }
+            }
+        }    
+
+
+
 
 
 
